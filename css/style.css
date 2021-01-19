@@ -25,11 +25,19 @@ input, a, button {
 #wrap {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, hotpink, purple);
+  background: linear-gradient(45deg, aqua, royalblue);
   display: flex;
   justify-content: center;
   align-items: center;
   font: bold 8vw/1 "arial";
   color: #fff; }
+
+ul {
+  display: flex;
+  justify-content: space-between; }
+  ul li {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, lightgreen, green); }
 
 /*# sourceMappingURL=style.css.map */
